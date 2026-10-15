@@ -1,0 +1,15 @@
+RITMO — Hábitos e Disciplina (PWA)
+
+COMO TESTAR
+1. Extraia todos os arquivos do ZIP mantendo-os juntos.
+2. Abra index.html para testar a interface. O registro offline e a instalação como PWA precisam de hospedagem HTTPS ou servidor local; abrir diretamente como arquivo pode não habilitar esses recursos.
+3. Para instalar no Android: publique a pasta em um serviço de hospedagem estática HTTPS (por exemplo, GitHub Pages) e abra o endereço no Chrome.
+4. No Chrome, toque no menu ⋮ e escolha "Instalar app" ou "Adicionar à tela inicial".
+
+DADOS
+- Os hábitos e o progresso ficam no LocalStorage do navegador/aplicativo.
+- Use "Ajustes > Exportar backup" para guardar uma cópia.
+- Limpar os dados do Chrome pode apagar seu progresso. O backup JSON ajuda a preservar os dados, mas esta versão ainda não tem importação de backup.
+
+OBSERVAÇÃO
+O app é local-first: não exige conta nem envia seus hábitos para um servidor. O PWA funciona offline após o primeiro carregamento por HTTPS.
