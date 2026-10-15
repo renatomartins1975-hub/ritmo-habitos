@@ -1,0 +1,12 @@
+{
+  "name":"Ritmo — Hábitos e Disciplina",
+  "short_name":"Ritmo",
+  "description":"Acompanhe hábitos, foco e disciplina todos os dias.",
+  "start_url":"./index.html",
+  "scope":"./",
+  "display":"standalone",
+  "orientation":"portrait",
+  "background_color":"#0d0c14",
+  "theme_color":"#11101b",
+  "icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
